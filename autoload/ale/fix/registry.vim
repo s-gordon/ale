@@ -385,6 +385,11 @@ let s:default_registry = {
 \       'suggested_filetypes': ['dhall'],
 \       'description': 'Fix Dhall files with dhall-format.',
 \   },
+\   'psscriptanalyzer': {
+\       'function': 'ale#fixers#psscriptanalyzer#Fix',
+\       'suggested_filetypes': ['ps1', 'powershell'],
+\       'description': 'Fix Powershell scripts with PSScriptAnalyzer.',
+\   },
 \}
 
 " Reset the function registry to the default entries.
